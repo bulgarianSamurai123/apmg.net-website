@@ -33,3 +33,17 @@
 .navLink:hover {
     font-weight: 800;
 }
+
+.headerText {
+    font-family: var(--font-sora);
+    color: var(--color-text-color);
+    font-size: 68px;
+    font-weight: 800;
+}
+
+.subText {
+    font-family: var(--font-jakarta-sans);
+    color: var(--color-body-text-color);
+    font-size: 18px;
+    font-weight: 400;
+}
