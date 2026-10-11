@@ -10,13 +10,14 @@
   --color-storm-gray: #6A7188;
   --color-text-color: #0B1020;
   --color-acccent-color: #5B5BFF;
-  --color-light-acccent-color: #E8E8FF;
+  --color-light-accent-color: #E8E8FF;
   --color-card-border-color: #E3E5F0;
   --color-accent-text-color: #3B3BD6;
   --color-body-text-color: #4A5169;
   --color-card-white-color: #FFFFFF;
   --color-waterloo: #7D84A0;
   --color-white-lilac: #ECEDF8;
+  --color-white-hover-color: #C5C6CD;
 
   --font-sora: var(--font-sora);
   --font-jakarta-sans: var(--font-jakarta-sans);
@@ -45,5 +46,26 @@
     font-family: var(--font-jakarta-sans);
     color: var(--color-body-text-color);
     font-size: 18px;
+    font-weight: 400;
+}
+
+.subHeader {
+    font-family: var(--font-sora);
+    color: var(--color-text-color);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.h3Text {
+    font-family: var(--font-sora);
+    color: var(--color-text-color);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.h3SubText {
+    font-family: var(--font-jakarta-sans);
+    color: #4A5169;
+    font-size: 15px;
     font-weight: 400;
 }

@@ -1,20 +1,17 @@
 import React from "react";
-import Button, { LightButton } from "../Button";
+import Button, { LightButton } from "../UI/Button";
+import LittleTitle from "../UI/LittleTitle";
 
 const HeroPage = () => {
   return (
-    <div className="flex flex-col justify-baseline gap-6">
-      <div>
-        <p className="bg-light-acccent-color text-accent-text-color px-3.5 py-2 ">
-          Freelance engineering firm
-        </p>
-      </div>
+    <div className="flex flex-col gap-3">
+      <LittleTitle>Freelance engineering firm</LittleTitle>
       <h1 className="headerText">Software built by people who ship.</h1>
-      <p className="subText">
+      <p className="subText w-2xl">
         APMG.NET delivers software, front-end, back-end, full-stack and AI
         projects for companies that need extra engineering power.
       </p>
-      <div>
+      <div className="flex gap-3 pt-3">
         <Button>Start a project</Button>
         <LightButton>View our work</LightButton>
       </div>

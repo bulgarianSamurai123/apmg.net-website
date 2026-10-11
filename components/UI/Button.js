@@ -12,7 +12,7 @@ export default Button
 
 const LightButton = ({ children }) => {
   return (
-    <button className="bg-card-white-color text-text-color py-3 px-6 rounded-full border border-botticelli hover:bg-light-accent-text-color">
+    <button className="bg-card-white-color text-text-color py-3 px-6 rounded-full border border-botticelli hover:bg-white-hover-color">
       {children}
     </button>
   )

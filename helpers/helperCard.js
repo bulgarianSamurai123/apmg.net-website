@@ -1,0 +1,70 @@
+import Bolt from "../public/assets/apmg-icons/bolt.js";
+import Brain from "../public/assets/apmg-icons/brain.js";
+import Chip from "../public/assets/apmg-icons/chip.js";
+import Cloud from "../public/assets/apmg-icons/cloud.js";
+import Code from "../public/assets/apmg-icons/code.js";
+import DB from "../public/assets/apmg-icons/db.js";
+import Git from "../public/assets/apmg-icons/git.js";
+import Term from "../public/assets/apmg-icons/term.js";
+import Win from "../public/assets/apmg-icons/win.js";
+
+export const weBuildHelper = [
+  {
+    id: 1,
+    title: "Software engineering",
+    description: "Architecture, delivery and maintenance of custom software.",
+    icon: <Code />,
+  },
+  {
+    id: 2,
+    title: "Front-end",
+    description: "Fast, accessible interfaces in React and Next.js.",
+    icon: <Win />,
+  },
+  {
+    id: 3,
+    title: "Back-end",
+    description: "APIs, databases and integrations.",
+    icon: <DB />,
+  },
+  {
+    id: 4,
+    title: "Full-stack",
+    description: "End to end builds from idea to launch.",
+    icon: <Git />,
+  },
+  {
+    id: 5,
+    title: "AI development",
+    description: "Chatbots, automation and AI features.",
+    icon: <Brain />,
+  },
+  {
+    id: 6,
+    title: "Cloud and deployment",
+    description: "Hosting, servers and CI/CD.",
+    icon: <Cloud />,
+  },
+];
+
+export const processHelper = [
+  {
+    id: 1,
+    icon: <Term />,
+    title: "1. Brief",
+    description: "Tell us your goals.",
+  },
+  {
+    id: 2,
+    icon: <Bolt />,
+    title: "2. Quote",
+    description: "Fixed scope and price.",
+  },
+  { id: 3, icon: <Code />, title: "3. Build", description: "Weekly updates." },
+  {
+    id: 4,
+    icon: <Cloud />,
+    title: "4. Launch",
+    description: "Handover and support.",
+  },
+];
