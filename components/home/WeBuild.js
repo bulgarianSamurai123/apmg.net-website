@@ -9,7 +9,7 @@ const WeBuild = () => {
   return (
     <Section>
       <LittleTitle>Services</LittleTitle>
-      <h1 className="subHeader">What we build</h1>
+      <h1 className="h2Text">What we build</h1>
       <div className="grid grid-cols-4 gap-5">
         {weBuildHelper.map((service) => (
           <Card

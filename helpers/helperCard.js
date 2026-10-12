@@ -68,3 +68,19 @@ export const processHelper = [
     description: "Handover and support.",
   },
 ];
+
+export const technologiesHelper = [
+  {
+    id: 1,
+    icon: <Win />,
+    title: "Front-End",
+    description: "React, Next.JS, TailwindCSS",
+  },
+  {
+    id: 2,
+    icon: <DB />,
+    title: "Back-End",
+    description: "Node.JS, Python, Java, Firebase, SQL",
+  },
+  { id: 3, icon: <Brain />, title: "AI", description: "[YOUR TOOL HERE]" },
+];

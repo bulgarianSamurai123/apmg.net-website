@@ -35,25 +35,25 @@
     font-weight: 800;
 }
 
-.headerText {
+.h1Text {
     font-family: var(--font-sora);
     color: var(--color-text-color);
     font-size: 68px;
     font-weight: 800;
 }
 
-.subText {
-    font-family: var(--font-jakarta-sans);
-    color: var(--color-body-text-color);
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.subHeader {
+.h2Text {
     font-family: var(--font-sora);
     color: var(--color-text-color);
     font-size: 38px;
     font-weight: 700;
+}
+
+.pText {
+    font-family: var(--font-jakarta-sans);
+    color: #4A5169;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .h3Text {
