@@ -1,10 +1,12 @@
 import React from 'react'
+import Projects from '../../../components/work/Projects'
+import SendMessage from '../../../components/UI/SendMessage'
 
 const WorkPage = () => {
   return (
     <div>
-      <h1>Our Work</h1>
-      <p>Check out some of our recent projects!</p>
+      <Projects />
+      <SendMessage />
     </div>
   )
 }

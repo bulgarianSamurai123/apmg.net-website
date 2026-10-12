@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <Section>
       <LittleTitle>Work</LittleTitle>
-      <h2 className="subHeader">Recent Projects</h2>
+      <h2 className="h2Text">Recent Projects</h2>
       <div className="flex flex-row">
         {/* Remove when u have idea for projects */}
         <div className="flex flex-col gap-3 bg-card-white-color p-7 rounded-2xl">

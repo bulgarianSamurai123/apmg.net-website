@@ -1,10 +1,16 @@
 import React from 'react'
+import HeroPage from '../../../components/services/HeroPage'
+import WeDo from '../../../components/services/WeDo'
+import Technologies from '../../../components/services/Technologies'
+import SendMessage from '../../../components/UI/SendMessage'
 
 const ServicePage = () => {
   return (
     <div>
-      <h1>Our Services</h1>
-      <p>Discover the range of services we offer.</p>
+      <HeroPage />
+      <WeDo />
+      <Technologies />
+      <SendMessage />
     </div>
   )
 }

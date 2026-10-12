@@ -9,7 +9,7 @@ const Process = () => {
   return (
     <Section>
         <LittleTitle>Process</LittleTitle>
-        <h2 className='subHeader'>Four simple steps</h2>
+        <h2 className='h2Text'>Four simple steps</h2>
         <div className="grid grid-cols-4 gap-5">
         {processHelper.map((process) => (
           <Card
