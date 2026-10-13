@@ -31,8 +31,8 @@ export const projects = [
       { id: 7, stack: "Next-Auth" },
     ],
     testemony: "[CLIENTS WORDS]",
-    clientName: "[CLIENT NAME]",
-    clientRole: "[CLIENT ROLE]",
-    clientCompany: "[CLIENT COMPANY]",
+    clientName: "Agelina Petrova",
+    clientRole: "CEO",
+    clientCompany: "Angelina's Art Gallery",
   },
 ];

@@ -84,3 +84,30 @@ export const technologiesHelper = [
   },
   { id: 3, icon: <Brain />, title: "AI", description: "[YOUR TOOL HERE]" },
 ];
+
+export const workFlowHelper = [
+  {
+    id: 1,
+    icon: <Term />,
+    title: "Discovery",
+    description: "Call and writen brief.",
+  },
+  {
+    id: 2,
+    icon: <Bolt />,
+    title: "Proposal",
+    description: "Scope, timeline, price.",
+  },
+  {
+    id: 3,
+    icon: <Code />,
+    title: "Development",
+    description: "Milestones and demos.",
+  },
+  {
+    id: 4,
+    icon: <Cloud />,
+    title: "Delivery",
+    description: "Launch and support.",
+  },
+];

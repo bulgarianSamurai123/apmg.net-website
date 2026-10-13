@@ -1,10 +1,16 @@
 import React from 'react'
+import HeroPage from '../../../components/about/HeroPage'
+import Team from '../../../components/about/Team'
+import SendMessage from '../../../components/UI/SendMessage'
+import Values from '../../../components/about/Values'
 
 const AboutPage = () => {
   return (
     <div>
-      <h1>About Us</h1>
-      <p>Welcome to our about page!</p>
+      <HeroPage />
+      <Team />
+      <Values />
+      <SendMessage />
     </div>
   )
 }

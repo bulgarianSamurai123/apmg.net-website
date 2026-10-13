@@ -1,10 +1,18 @@
 import React from 'react'
+import HeroPage from '../../../components/process/HeroPage'
+import WeWork from '../../../components/process/WeWork'
+import Pricing from '../../../components/process/Pricing'
+import SendMessage from '../../../components/UI/SendMessage'
+import Faq from '../../../components/process/Faq'
 
 const ProcessPage = () => {
   return (
     <div>
-      <h1>Our Process</h1>
-      <p>Learn about our step-by-step approach.</p>
+      <HeroPage />
+      <WeWork />
+      <Pricing />
+      <Faq />
+      <SendMessage />
     </div>
   )
 }
