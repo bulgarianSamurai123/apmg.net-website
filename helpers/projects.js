@@ -34,5 +34,7 @@ export const projects = [
     clientName: "Agelina Petrova",
     clientRole: "CEO",
     clientCompany: "Angelina's Art Gallery",
+    hasLinks: true,
+    visiteSite: "https://angelinartgallery.com",
   },
 ];

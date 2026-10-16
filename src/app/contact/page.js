@@ -1,10 +1,12 @@
 import React from 'react'
+import HeroPage from '../../../components/contactus/HeroPage'
+import ContactForm from '../../../components/contactus/ContactForm'
 
 const ContactPage = () => {
   return (
     <div>
-      <h1>Contact Us</h1>
-      <p>Get in touch with us!</p>
+      <HeroPage />
+      <ContactForm />
     </div>
   )
 }

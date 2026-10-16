@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = ({ children }) => {
+const Button = ({ children, ...props } ) => {
   return (
-    <button className="bg-acccent-color text-white py-3 px-6 rounded-full hover:bg-accent-text-color font-bold">
+    <button className="bg-acccent-color text-white py-3 px-6 rounded-full hover:bg-accent-text-color font-bold" {...props}>
       {children}
     </button>
   )
@@ -10,9 +10,9 @@ const Button = ({ children }) => {
 
 export default Button
 
-const LightButton = ({ children }) => {
+const LightButton = ({ children, ...props }) => {
   return (
-    <button className="bg-card-white-color text-text-color py-3 px-6 rounded-full border border-botticelli hover:bg-white-hover-color font-bold">
+    <button className="bg-card-white-color text-text-color py-3 px-6 rounded-full border border-botticelli hover:bg-white-hover-color font-bold" {...props}>
       {children}
     </button>
   )

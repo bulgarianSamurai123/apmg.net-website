@@ -1,8 +1,13 @@
+"use client"
+
 import React from "react";
 import Section from "./Section";
 import Button from "./Button";
+import { useRouter } from "next/navigation";
 
 const SendMessage = () => {
+  const router = useRouter();
+
   return (
     <Section>
       <div className="m-0 p-14 bg-text-color rounded-4xl flex flex-col gap-5">
@@ -13,7 +18,7 @@ const SendMessage = () => {
           Tell us what you need built. We reply within 24 hours.
         </p>
         <div>
-          <Button>Get a free quote</Button>
+          <Button onClick={() => router.push("/contact")}>Get a free quote</Button>
         </div>
       </div>
     </Section>

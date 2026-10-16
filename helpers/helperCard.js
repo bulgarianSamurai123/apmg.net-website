@@ -10,6 +10,12 @@ import Win from "../public/assets/apmg-icons/win.js";
 
 export const weBuildHelper = [
   {
+    id: 5,
+    title: "AI development",
+    description: "Chatbots, automation, agents and AI features.",
+    icon: <Brain />,
+  },
+  {
     id: 1,
     title: "Software engineering",
     description: "Architecture, delivery and maintenance of custom software.",
@@ -32,12 +38,6 @@ export const weBuildHelper = [
     title: "Full-stack",
     description: "End to end builds from idea to launch.",
     icon: <Git />,
-  },
-  {
-    id: 5,
-    title: "AI development",
-    description: "Chatbots, automation and AI features.",
-    icon: <Brain />,
   },
   {
     id: 6,
@@ -71,6 +71,12 @@ export const processHelper = [
 
 export const technologiesHelper = [
   {
+    id: 3,
+    icon: <Brain />,
+    title: "AI",
+    description: "Full on agents and AI technologies",
+  },
+  {
     id: 1,
     icon: <Win />,
     title: "Front-End",
@@ -82,7 +88,6 @@ export const technologiesHelper = [
     title: "Back-End",
     description: "Node.JS, Python, Java, Firebase, SQL",
   },
-  { id: 3, icon: <Brain />, title: "AI", description: "[YOUR TOOL HERE]" },
 ];
 
 export const workFlowHelper = [

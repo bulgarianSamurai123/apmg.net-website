@@ -18,7 +18,7 @@ const BackroundIcons = () => {
         <Code className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none" />
       </BgIcon>
       <BgIcon className="right-[5%] top-56 hidden md:block">
-        <Git className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-[25deg]" />
+        <Git className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-25" />
       </BgIcon>
       <BgIcon className="left-[40%] top-80 hidden md:block">
         <Chip className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-[-10deg]" />
@@ -30,13 +30,13 @@ const BackroundIcons = () => {
         <Term className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none" />
       </BgIcon>
       <BgIcon className="right-[5%] top-[32%] hidden md:block">
-        <Chip className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-[10deg]" />
+        <Chip className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-10" />
       </BgIcon>
       <BgIcon className="left-[50%] top-[40%] hidden md:block">
         <Bolt className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-[-8deg]" />
       </BgIcon>
       <BgIcon className="left-[15%] top-[45%] hidden md:block">
-        <Brain className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-[10deg]" />
+        <Brain className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-10" />
       </BgIcon>
       <BgIcon className="right-[15%] top-[50%] hidden md:block">
         <Cloud className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none" />
@@ -45,7 +45,7 @@ const BackroundIcons = () => {
         <Win className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none" />
       </BgIcon>
       <BgIcon className="right-[20%] top-[69%] hidden md:block">
-        <Git className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-[-12deg]" />
+        <Git className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none -rotate-12" />
       </BgIcon>
       <BgIcon className="left-[30%] top-[81%] hidden md:block">
         <DB className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none" />
@@ -54,7 +54,7 @@ const BackroundIcons = () => {
         <Code className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none" />
       </BgIcon>
       <BgIcon className="right-[3%] top-[91%] hidden md:block">
-        <Brain className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-[10deg]" />
+        <Brain className="h-20 w-20 text-accent-text-color stroke-accent-text-color fill-none rotate-10" />
       </BgIcon>
     </div>
   );

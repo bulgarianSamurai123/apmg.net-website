@@ -1,8 +1,14 @@
+"use client";
+
 import React from "react";
+import { useRouter } from "next/navigation";
+
 import Button, { LightButton } from "../UI/Button";
 import LittleTitle from "../UI/LittleTitle";
 
 const HeroPage = () => {
+  const router = useRouter();
+
   return (
     <div className="flex flex-col gap-3">
       <LittleTitle>Freelance engineering firm</LittleTitle>
@@ -12,8 +18,10 @@ const HeroPage = () => {
         projects for companies that need extra engineering power.
       </p>
       <div className="flex gap-3 pt-3">
-        <Button>Start a project</Button>
-        <LightButton>View our work</LightButton>
+        <Button onClick={() => router.push("/contact")}>Start a project</Button>
+        <LightButton onClick={() => router.push("/work")}>
+          View our work
+        </LightButton>
       </div>
     </div>
   );

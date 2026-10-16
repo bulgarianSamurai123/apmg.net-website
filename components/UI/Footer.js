@@ -14,6 +14,7 @@ const Footer = () => {
           LINKEDIN
         </a>
         <p className="font-jakarta-sans text-sm text-storm-gray hover:underline">[GITHUB]</p>
+        <p className="font-jakarta-sans text-sm text-storm-gray hover:underline">[FACEBOOK]</p>
       </span>
       <span className="flex flex-row gap-2">
         <Link className="font-jakarta-sans text-sm text-storm-gray hover:underline" href={"/"}>Privacy</Link>

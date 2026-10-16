@@ -1,7 +1,12 @@
+"use client";
+
 import React from "react";
 import Button from "./Button.js";
+import { useRouter } from "next/navigation";
 
 const NavBar = () => {
+  const router = useRouter();
+
   return (
     <nav className="flex items-center justify-between mx-20 my-5 px-6 py-5 bg-card-white-color border-card-border-color border rounded-full">
       <div>
@@ -36,7 +41,7 @@ const NavBar = () => {
           </a>
         </li>
       </ul>
-      <Button>Get Started</Button>
+      <Button onClick={() => router.push("/contact")}>Get Started</Button>
     </nav>
   );
 };
