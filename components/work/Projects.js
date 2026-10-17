@@ -10,7 +10,7 @@ const Projects = () => {
       <LittleTitle>Portfolio</LittleTitle>
       <h1 className="h1Text">Selected Projects</h1>
       <p className="pText">Problem, solution and result for each build.</p>
-      <div>
+      <div className="grid grid-cols-4 gap-3">
         {projects.map((project) => (
           <ProductCard
             key={project.id}

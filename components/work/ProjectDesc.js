@@ -14,7 +14,7 @@ const ProjectDesc = ({ project }) => {
       <LittleTitle>Case study · [Category]</LittleTitle>
 
       <h1 className="h1Text">{project.title}</h1>
-      <p className="pText">{project.description}</p>
+      <p className="pText w-2/3">{project.description}</p>
 
       {project.hasLinks && (
         <div className={`flex flex-row gap-3`}>
